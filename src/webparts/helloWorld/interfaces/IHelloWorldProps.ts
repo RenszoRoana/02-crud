@@ -1,9 +1,9 @@
+import { SPHttpClient } from '@microsoft/sp-http'; 
+
 export interface IHelloWorldProps {
-  description: string;
-  isDarkTheme: boolean;
-  environmentMessage: string;
-  hasTeamsContext: boolean;
-  userDisplayName: string;
+  listName: string;
+  spHttpClient: SPHttpClient;
+  siteUrl: string;
 }
 
 export interface IListItem {
