@@ -8,7 +8,7 @@ export interface IHelloWorldProps {
 
 export interface IListItem {
   Title?: string;
-  id: number;
+  Id: number;
 }
 
 export interface IHelloWorldState {
